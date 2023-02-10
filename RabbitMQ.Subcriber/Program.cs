@@ -9,6 +9,7 @@ namespace RabbitMQ.Subcriber
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Comsumer/Subcriber ==>");
 
             Console.ForegroundColor
           = ConsoleColor.Green;
@@ -27,7 +28,7 @@ namespace RabbitMQ.Subcriber
             //Burda kicik bir incelik var  - Bunu istesek sile bilerik, amma saxlamaqda problem yoxdur. Eger bizim publisher da quyruq yaradildigina aid melumatimiz varsa sile bilerik.
             //Hem publisher hemde subcriber terefde quyruq yaradirsansa eger icerisinde daxil etdiyimiz butun parametrler eyni olmalidir. Bunlar - "donkey-queue", true, false, false
             channel.QueueDeclare("donkey-queue", true, false, false);
-            
+
             //Musteri/abuneci yaradir
             var subcriber = new EventingBasicConsumer(channel);
 
@@ -41,14 +42,14 @@ namespace RabbitMQ.Subcriber
             //SUbcribere mesaj gelende bu event isleyecek(Recieved)
             subcriber.Received += (object sender, BasicDeliverEventArgs e) =>
             {
-               
+
                 var receivedMessage = Encoding.UTF8.GetString(e.Body.ToArray());
                 Console.WriteLine($"Sizin yeni mesajınız var - {receivedMessage}");
                 System.Threading.Thread.Sleep(1555);
                 //multiple = true/false ( true olsa eger islenmis amma gonderilmesmis mesajlar rabbitmq e melumat verer)
-                channel.BasicAck(e.DeliveryTag,false);
+                channel.BasicAck(e.DeliveryTag, false);
             };
-            
+
             Console.ReadLine();
         }
 
