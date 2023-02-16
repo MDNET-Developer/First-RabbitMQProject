@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zdst61jSg3JPJUbD9BsWOj1pFAowzJ/O1903JfuaXZgCJFjfBwPgX80fvqgsUBa9RMSceFz6Mx2Xg1J67+YtiQ==",
+  "dgSpecHash": "b6fqFYH4xtyO0XxSBJLJoKqjF9z2nG+sL+vkROLZ3eCisFp1Z9G+Lco+2BthVeRF6VdYLqfs7HxpKAIMfm9v6g==",
   "success": true,
   "projectFilePath": "D:\\MyProjects\\NEW\\First-RabbitMQ\\RabbitMQ.Publisher(Fanout_Exchange)\\RabbitMQ.Publisher(Fanout_Exchange).csproj",
   "expectedPackageFiles": [

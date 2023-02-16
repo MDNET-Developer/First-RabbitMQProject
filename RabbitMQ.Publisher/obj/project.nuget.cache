@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "FZwUw+qzDQ53h7c6/O2ksKJK61QSjHH+0L41MK3B54LYXIfTpjkVlVP1a6t0Nit8X+cnxU3Nyx/xhz5TrpMmgA==",
+  "dgSpecHash": "mTCrvuqRfRHef28Ah3ne9aSuUDZzjjXlfQzGOgPPWzwjEKiV7yH5joDd+YU5+/Zp6YsrIa5OEojplFseXTU+6w==",
   "success": true,
   "projectFilePath": "D:\\MyProjects\\NEW\\First-RabbitMQ\\RabbitMQ.Publisher\\RabbitMQ.Publisher.csproj",
   "expectedPackageFiles": [

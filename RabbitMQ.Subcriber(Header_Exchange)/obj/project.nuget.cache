@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RVrh++6KPJR/QH05fdIn7nHEwhfyzmRn7oxtmGCaJOKqLdEvGpAjk5kYZS+juIhU7JYX+RCDEwzw13nqTf3kXQ==",
+  "dgSpecHash": "BNWOgUXvGQSMF/ZxNrXANvSnZ/hO2gAp9hAuVMFPsV6jYboDDyLR3tgiPx3Io1EPBUGdALDEiS238CeIevPFWw==",
   "success": true,
   "projectFilePath": "D:\\MyProjects\\NEW\\First-RabbitMQ\\RabbitMQ.Subcriber(Header_Exchange)\\RabbitMQ.Subcriber(Header_Exchange).csproj",
   "expectedPackageFiles": [
